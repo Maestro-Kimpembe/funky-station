@@ -831,6 +831,40 @@
             Brute: -2.4 # funky
 
 - type: reagent
+  id: Earthsblood
+  name: reagent-name-earthsblood
+  group: Medicine
+  desc: reagent-desc-earthsblood
+  physicalDesc: reagent-physical-desc-milky
+  flavor: medicine
+  color: "#ffaf00"
+  metabolisms:
+    Medicine:
+      - !type:HealthChange
+        damage:
+          types:
+            Burn: -4
+            Toxin: -2
+            Airloss: -2
+            Brute: -3
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 20
+        damage:
+          types:
+            Poison: 4
+            Burn: -5
+            Airloss: -2
+            Brute: -4
+          groups:
+            Brute: 0.5
+      - !type:Drowsiness
+        conditions:
+        - !type:ReagentThreshold
+          min: 20
+
+- type: reagent
   id: Ultravasculine
   name: reagent-name-ultravasculine
   group: Medicine

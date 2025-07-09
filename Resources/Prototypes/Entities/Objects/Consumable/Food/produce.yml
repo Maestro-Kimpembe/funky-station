@@ -1928,6 +1928,54 @@
         name: food-sequence-content-ambrosia
 
 - type: entity
+  name: ambrosia gaia
+  parent: FoodProduceBase
+  id: FoodAmbrosiaGaia
+  description: Medical plant that is a dream of every botanist. May have some funky side effects.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - leafy
+      - medicine
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Earthsblood
+          Quantity: 3
+        - ReagentId: SpaceDrugs
+          Quantity: 7
+        - ReagentId: Nutriment
+          Quantity: 2
+        - ReagentId: Desoxyephedrine
+          Quantity: 10
+  - type: Sprite
+    sprite: Objects/Specific/Hydroponics/ambrosia_gaia.rsi
+  - type: Item
+    heldPrefix: produce
+  - type: Produce
+    seedId: ambrosiaGaia
+  - type: Extractable
+    grindableSolutionName: food
+  - type: Clothing
+    sprite: Objects/Specific/Hydroponics/ambrosia_gaia.rsi
+    slots:
+    - HEAD
+  - type: Tag
+    tags:
+    - Ambrosia
+  - type: FoodSequenceElement
+    sprite:
+      sprite: Objects/Specific/Hydroponics/ambrosia_gaia.rsi
+      state: produce
+    entries:
+      burger:
+        name: food-sequence-burger-content-ambrosia
+      taco:
+        name: food-sequence-content-ambrosia
+
+- type: entity
   name: galaxythistle
   parent: FoodProduceBase
   id: FoodGalaxythistle

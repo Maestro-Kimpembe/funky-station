@@ -496,6 +496,17 @@
 
 - type: entity
   parent: SeedBase
+  name: packet of ambrosia gaia seeds
+  description: "A medical plant for omnipotent beings."
+  id: AmbrosiaGaiaSeeds
+  components:
+    - type: Seed
+      seedId: ambrosiaGaia
+    - type: Sprite
+      sprite: Objects/Specific/Hydroponics/ambrosia_gaia.rsi
+
+- type: entity
+  parent: SeedBase
   name: packet of galaxythistle seeds
   description: "Brushes of starry nights."
   id: GalaxythistleSeeds

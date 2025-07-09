@@ -1311,6 +1311,8 @@
   packetPrototype: AmbrosiaDeusSeeds
   productPrototypes:
     - FoodAmbrosiaDeus
+  mutationPrototypes:
+    - ambrosiaGaia
   lifespan: 25
   maturation: 10
   production: 3
@@ -1326,6 +1328,42 @@
     Omnizine: # Don't kill me
       Min: 1
       Max: 3
+      PotencyDivisor: 35
+    SpaceDrugs:
+      Min: 1
+      Max: 5
+      PotencyDivisor: 20
+    Desoxyephedrine:
+      Min: 1
+      Max: 10
+      PotencyDivisor: 10
+
+- type: seed
+  id: ambrosiaGaia
+  name: seeds-ambrosiagaia-name
+  noun: seeds-noun-seeds
+  displayName: seeds-ambrosiagaia-display-name
+  plantRsi: Objects/Specific/Hydroponics/ambrosia_gaia.rsi
+  packetPrototype: AmbrosiaGaiaSeeds
+  productPrototypes:
+    - FoodAmbrosiaGaia
+  mutationPrototypes:
+    - earthsblood
+  lifespan: 25
+  maturation: 10
+  production: 3
+  yield: 3
+  potency: 10
+  growthStages: 6
+  waterConsumption: 0.60
+  chemicals:
+    Nutriment:
+      Min: 1
+      Max: 2
+      PotencyDivisor: 10
+    Earthsblood:
+      Min: 1
+      Max: 4
       PotencyDivisor: 35
     SpaceDrugs:
       Min: 1
