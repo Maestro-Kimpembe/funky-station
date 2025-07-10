@@ -471,7 +471,7 @@
   description: uplink-pizza-party-crate-desc
   productEntity: CratePizzaParty
   cost:
-    Telecrystal: 75  # Goob Bundle, get 8 pizza bombs and 7 regular pizzas. Bundle + Pizza boxes not telling the dangerous ones justifies the discount.
+    Telecrystal: 55  # Goob Bundle, get 8 pizza bombs and 7 regular pizzas. Bundle + Pizza boxes not telling the dangerous ones justifies the discount.
   categories:
   - UplinkExplosives
 
