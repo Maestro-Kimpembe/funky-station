@@ -45,6 +45,12 @@ uplink-mini-bomb-desc = A low-yield, high-impact precision sabotage explosive wi
 uplink-singularity-grenade-name = Singularity Grenade
 uplink-singularity-grenade-desc = Grenade that simulates the power of a singularity, generates powerful gravity well.
 
+uplink-pizza-bomb-name = Nefarious Pizza bomb
+uplink-pizza-bomb-desc = First pioneered by terrorists, now is used by the syndicate for eliminating high value targets. Do not open before explosion.
+
+uplink-pizza-party-crate-name = Pizza Party Crate
+uplink-pizza-party-crate-desc = A crate coming in the form of disaster pizza delivery. Filled with pizzas and pizza bombs to throw the most explosive pizza party ever. Unfortunately you can't seem to remember which one is which.
+
 uplink-whitehole-grenade-name = Whitehole Grenade
 uplink-whitehole-grenade-desc = Grenade that repulses everything around for about 10 seconds. Very useful in small rooms and for chasing someone.
 

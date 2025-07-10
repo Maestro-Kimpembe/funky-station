@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from Goobstation Pull Request: https://github.com/Goob-Station/Goob-Station/pull/2170 and ported by Maestro-Kimpembe",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon"
+        },
+        {
+            "name": "primed"
+        },
+        {
+            "name": "box-inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "box-inhand-left",
+            "directions": 4
+        }
+    ]
+}
