@@ -461,7 +461,7 @@
   description: uplink-pizza-bomb-desc
   productEntity: FoodBoxPizzaBomb
   cost:
-    Telecrystal: 10  # Goob
+    Telecrystal: 25  # Goob, price raised from 10 to 25 as the bomb gives no time to throw and it is an easy way to immobilize a target that is not armed.
   categories:
   - UplinkExplosives
 
@@ -471,7 +471,7 @@
   description: uplink-pizza-party-crate-desc
   productEntity: CratePizzaParty
   cost:
-    Telecrystal: 50  # Goob Bundle, get 8 pizza bombs and 7 regular pizzas. Bundle + Pizza boxes not telling the dangerous ones justifies the discount.
+    Telecrystal: 75  # Goob Bundle, get 8 pizza bombs and 7 regular pizzas. Bundle + Pizza boxes not telling the dangerous ones justifies the discount.
   categories:
   - UplinkExplosives
 
