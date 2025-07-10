@@ -8,7 +8,7 @@
   description: A cardboard box for storing things.
   components:
   - type: Sprite
-    sprite: Resources/Prototypes/Entities/Objects/Weapons/Bombs
+    sprite: Objects/Weapons/Bombs/PizzaBomb.rsi
     layers:
     - state: icon
     - state: primed
