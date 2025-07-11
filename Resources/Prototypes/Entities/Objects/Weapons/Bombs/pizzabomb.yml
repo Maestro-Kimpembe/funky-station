@@ -1,14 +1,10 @@
-# Ported from Goobstation
-
 - type: entity
-  parent: [FoodBoxPizzaFilled]
-  id: FoodBoxPizzaBomb
-  name: pizza box
+  parent: FoodBoxPizzaFilled
+  id: Pizzabomb
   suffix: Bomb
-  description: A cardboard box for storing things.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/PizzaBomb.rsi
+    sprite: _Harmony/Objects/Weapons/Bombs/Pizzabomb.rsi
   - type: TwoStageTrigger # Trigger the sound trigger, delay, then explode
     triggerDelay: 0.5
     components:
