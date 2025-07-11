@@ -4,7 +4,7 @@
   suffix: Bomb
   components:
   - type: Sprite
-    sprite: _Harmony/Objects/Weapons/Bombs/Pizzabomb.rsi
+    sprite: Objects/Weapons/Bombs/PizzaBomb.rsi
   - type: TwoStageTrigger # Trigger the sound trigger, delay, then explode
     triggerDelay: 0.5
     components:
