@@ -268,6 +268,35 @@
           types:
             Poison: 1
 
+
+- type: reagent
+  id: LeafLoversSpecial
+  name: reagent-name-leaf-lovers-special
+  parent: BaseDrink
+  desc: reagent-desc-leaf-lovers-special
+  physicalDesc: reagent-physical-desc-losing-your-beard
+  flavor: leafloversspecial
+  color: "#A2B72E"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/leafloversspecial.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 2
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:GenericStatusEffect
+        key: Drunk
+        time: 90.0 # 1.5 times slower than Ethyl.
+        type: Remove
+        conditions:
+          - !type:OrganType
+            type: Dwarf
+
 - type: reagent
   id: Lemonade
   parent: BaseJuice

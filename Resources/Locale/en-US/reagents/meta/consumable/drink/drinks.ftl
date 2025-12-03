@@ -110,3 +110,5 @@ reagent-desc-posca = Poor warriors' drink from a forgotten era.
 
 reagent-name-mopwata = mopwata
 reagent-desc-mopwata = Dirty, stagnant mop water.
+
+reagent-name-leafloversspecial = leaf lover's special

@@ -671,6 +671,18 @@
     Lemonade: 3
 
 - type: reaction
+  id: LeafLoversSpecial
+  reactants:
+    Tea:
+      amount: 1
+    GreenTea:
+      amount: 1
+    SodaWater:
+      amount: 1
+  products:
+    LeafLoversSpecial: 3
+
+- type: reaction
   id: LemonLime
   requiredMixerCategories:
   - Stir

@@ -287,6 +287,11 @@
   description: flavor-complex-bread
 
 - type: flavor
+  id: leafloversspecial
+  flavorType: Complex
+  description: flavor-complex-leafloversspecial
+
+- type: flavor
   id: batter
   flavorType: Complex
   description: flavor-complex-batter
@@ -1385,7 +1390,7 @@
   id: zombiecocktail
   flavorType: Complex
   description: flavor-complex-zombiecocktail
-  
+
 - type: flavor
   id: shrimp
   flavorType: Complex

@@ -1335,6 +1335,22 @@
 
 - type: entity
   parent: DrinkGlass
+  id: DrinkLeafLoversSpecial
+  suffix: leaf lover's special
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: ManlyDorf
+          Quantity: 30
+  - type: Icon
+    sprite: Objects/Consumable/Drinks/manlydorfglass.rsi
+    state: icon
+
+- type: entity
+  parent: DrinkGlass
   id: DrinkLimeJuice
   suffix: lime juice
   components:
